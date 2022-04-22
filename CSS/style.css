@@ -1,0 +1,265 @@
+*{
+   margin: 1px;
+   padding: 10px;
+   
+    box-sizing: border-box;
+}
+
+
+/***************menu-encabezado**************************/
+.padre{
+    background:linear-gradient(#F4FCD9,#C5D8A4,#c5d0f7);
+    display: flex;
+    flex-flow: column nowrap;
+}
+    
+.heder{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 200px;
+ 
+    align-items: center;
+
+}
+.logo{
+flex: 1 1 auto;
+height: 100px;
+
+}
+.menu-logo3{
+    position: relative;
+    left: 74px;
+    
+}
+
+.menu-logo2{
+    position: relative;
+    left: 100px;
+    
+}
+.menu-logo1{
+    position: relative;
+    left: 125px;
+    top:5px;
+
+}
+
+.input-nav{
+    position: relative;
+    top: 15px;
+    left: 35px;
+    width: 290px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color:#e2dddd ;
+    color: black;
+}
+.nav{
+    
+    flex: 7 1 auto;
+    height: 100px;
+    width: 300px;
+    
+}
+
+.social{
+
+    flex: 1 1 auto;
+    height: 100px;
+    width: 200px;
+     }
+
+
+.btn-social{
+    width: 120px;
+    text-align:justify;
+    padding: 15px;
+    font-size: 15px;
+    color:#9FB4FF;
+    border: 2px solid #9FB4FF;
+    font-weight: bold;
+    background-color: white;
+    
+}
+
+
+
+
+
+/********************************contenido principal******************************/
+
+
+
+.texo-principal{
+   
+  background-color: #F4FCD9;
+    display: flex;
+    flex-flow: column nowrap;
+    }
+
+.articulos{
+     display: flex;
+    flex: 1 1 400px;
+     flex-flow: row wrap;
+
+ }
+
+ .article{
+   
+    font-size: 13px;
+    flex: 1 1 auto;
+     height: 260px;
+    }
+
+
+ .articulo-subtitulos{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+    
+     padding: 10px;
+     height: 100px;
+     flex: 1 1 100%;
+ }
+
+ .articulo-img{
+     width: 160px;
+     
+ } 
+ .articulo-verartic_flecha2{
+     text-decoration: none;
+     font-size: 14px;
+
+ }
+   
+.articulo-verartic_flecha1{
+    position: relative;
+    top: 12px;
+     width: 30px;
+     right: 10px;
+
+   
+ }
+
+
+ .article-parra{
+     height: 3px;
+     margin: 9px;
+     text-align:left;
+     text-decoration: none;
+ }
+
+ .article-parra2{
+     font-weight: bold;
+ }
+ 
+/**********fooder pie de pagina*************/
+
+ 
+ aside{
+  
+     display: flex;
+     flex-flow: row nowrap;
+     align-items:flex-start;
+     
+ }
+ .publicidad{
+     position: relative;
+     top: 40px;
+    
+     flex: 1 1 300pxx;
+    }
+
+ .item{
+    
+    list-style-type: none;
+    flex: 1 1 auto;
+}
+.publicidad1{
+    
+    font-size: 13px;
+}
+
+
+
+.publicidad2{
+flex:  5 1 auto;
+}
+
+
+ .input-form ,textarea{
+     position: relative;
+     bottom:  30px;
+     width: 500px;
+   
+   font-size: 11px;
+   text-align:justify;
+   border: none;
+ }
+ 
+ .form-parraf{
+font-weight: bold;
+font-size: 13px;
+ }
+
+ 
+ .menu-logo4{
+     position: relative;
+     left: 30px;
+    width: 50px;
+    
+    
+ }
+ .menu-logo5{
+     position: relative;
+
+ left: 5px;
+    width: 70px;
+}
+
+.menu-logo6{
+    position: relative;
+   right:20px;
+    width: 60px;
+    
+}
+.enviar{
+    position:relative;
+    bottom: 50px;
+    background-color:#1298d6;
+    color: white;
+    border: none;
+}
+.footer{
+    text-align: center;
+}
+/****************************media @************************/
+@media all and (max-width: 1000px){
+    .menu{
+        flex-direction:column-reverse;
+        
+    }
+.logo{
+    flex-direction: column;
+}
+.input-na{
+    flex-direction: column-reverse;
+
+}
+
+
+ 
+
+}
+@media all and (max-width:1003px) {
+    aside{
+        flex-direction: column;
+    }
+    
+}
